@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo</title>
+    <link rel="stylesheet" href="css/fontfaces.css">
+    <link rel="stylesheet" href="css/higux.css">
+    <link rel="stylesheet" href="css/screen.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navBar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="icon icon-menu"></i>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img alt="The Hartford" src="https://qawww.thehartford.com/sites/frontendstage/uxkit/demo/dist/images/logo.svg">
+                </a>
+            </div>
+        </div>
+    </div>
+    <header class="navbar navbar-default collapse navbar-collapse" id="navBar">
+        <div class="navbar-primary" id="primaryNav">
+            <div class="container">
+                <div class="row">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li class="dropdown">
+                            <br><br>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-icons navbar-right">
+                        <li>
+                            <a href="#">
+                                <i class="icon icon-notifications">
+                                    <span class="badge">0</span>
+                                </i>
+                                <span>Alerts</span>
+                            </a>
+                        </li>
+                        <li class="hidden-sm hidden-xs">
+                            <a href="#">
+                                <i class="icon icon-questions"></i>
+                                <span>Help</span>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-secondary" id="secondaryNav">
+            <div class="container">
+                <div class="row">
+
+                    <!-- 
+                                                                                            ───▄████▄─────
+                                                                                            ──███▄█▀──────
+                                                                                            ─▐████──█-─█──
+                                                                                            ──█████▄──────
+                                                                                            ───▀████▀─────  
+                                                                                            -->
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                <i class="icon icon-dashboard"></i>
+                                <span>Dashboard</span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <div class="mega-menu">
+                                    <div class="col-md-6 mega-menu-left">
+                                        <h3>Heading</h3>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Lorem ipsum dolor amit</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Lorem ipsum dolor amit</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Lorem ipsum dolor amit</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Lorem ipsum dolor amit</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6 mega-menu-right">
+                                        <h3>Heading</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                        <img src="http://via.placeholder.com/350x200" alt="play video" class="img-responsive">
+                                        <ul>
+                                            <li>
+                                                <a href="#">Lorem ipsum dolor amit</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Lorem ipsum dolor amit</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="icon icon-questions"></i>
+                                <span>Help</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="mobile-logout">
+                        <a href="#">
+                            <button class="btn btn-secondary-paired btn-block">Logout</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <ul class="breadcrumb">
+            <li>
+                <a href="index.html">
+                    <i class="icon icon-house"></i> Home</a>
+            </li>
+            <li class="active">Online Application</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="row card">
+            <div class="col-md-12">
+                <h3 class="progress-zone-1">Online Application</h3>
+                <span class="progress-zone-2"></span>
+            </div>
+        </div>
+        <div class="row card">
+            <div class="col-md-8 step1">
+                <div class="row input-fields-row">
+                    <div class="form-group has-feedback">
+                        <label for="firstname" class="control-label">First Name</label>
+                        <input data-info="info1" type="text" class="form-control" id="firstname" name="firstname" placeholder="Enter first name here"
+                            required />
+                        <span class="icon icon-attention form-control-feedback" aria-hidden="true">
+                            <i class="fa fa-caret-down"></i>
+                        </span>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <label for="lastname" class="control-label">Last Name</label>
+                        <input data-info="info1" type="text" class="form-control" id="lastname" name="lastname" placeholder="Enter last name here"
+                            required />
+                        <span class="icon icon-attention form-control-feedback" aria-hidden="true">
+                            <i class="fa fa-caret-down"></i>
+                        </span>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <label for="email" class="control-label">Email</label>
+                        <input data-info="info1" type="text" class="form-control" id="email" name="email" placeholder="Enter email here" required
+                        />
+                        <span class="icon icon-attention form-control-feedback" aria-hidden="true">
+                            <i class="fa fa-caret-down"></i>
+                        </span>
+                    </div>
+                    <button class="btn btn-primary btn-lg btn-block next1">Next</button>
+
+                </div>
+            </div>
+            <div class="col-md-8 step2">
+                <div class="row input-fields-row">
+                    <div class="form-group has-feedback">
+                        <label for="address" class="control-label">Address</label>
+                        <input data-info="info2" type="text" class="form-control" id="vehiclemake" name="address" placeholder="Enter address here"
+                            required />
+                        <span class="icon icon-attention form-control-feedback" aria-hidden="true">
+                            <i class="fa fa-caret-down"></i>
+                        </span>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <label for="city" class="control-label">City</label>
+                        <input data-info="info2" type="text" class="form-control" id="vehiclemodel" name="city" placeholder="Enter city here" required
+                        />
+                        <span class="icon icon-attention form-control-feedback" aria-hidden="true">
+                            <i class="fa fa-caret-down"></i>
+                        </span>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <label for="state">State: </label>
+                        <div class="select-container">
+                            <select data-info="info2" name="state" class="form-control" required="">
+                                <option value="">Please Select</option>
+                                <option value="AL">Alabama</option>
+                                <option value="AK">Alaska</option>
+                                <option value="AZ">Arizona</option>
+                                <option value="AR">Arkansas</option>
+                                <option value="CA">California</option>
+                                <option value="CO">Colorado</option>
+                                <option value="CT">Connecticut</option>
+                                <option value="DE">Delaware</option>
+                                <option value="DC">District Of Columbia</option>
+                                <option value="FL">Florida</option>
+                                <option value="GA">Georgia</option>
+                                <option value="HI">Hawaii</option>
+                                <option value="ID">Idaho</option>
+                                <option value="IL">Illinois</option>
+                                <option value="IN">Indiana</option>
+                                <option value="IA">Iowa</option>
+                                <option value="KS">Kansas</option>
+                                <option value="KY">Kentucky</option>
+                                <option value="LA">Louisiana</option>
+                                <option value="ME">Maine</option>
+                                <option value="MD">Maryland</option>
+                                <option value="MA">Massachusetts</option>
+                                <option value="MI">Michigan</option>
+                                <option value="MN">Minnesota</option>
+                                <option value="MS">Mississippi</option>
+                                <option value="MO">Missouri</option>
+                                <option value="MT">Montana</option>
+                                <option value="NE">Nebraska</option>
+                                <option value="NV">Nevada</option>
+                                <option value="NH">New Hampshire</option>
+                                <option value="NJ">New Jersey</option>
+                                <option value="NM">New Mexico</option>
+                                <option value="NY">New York</option>
+                                <option value="NC">North Carolina</option>
+                                <option value="ND">North Dakota</option>
+                                <option value="OH">Ohio</option>
+                                <option value="OK">Oklahoma</option>
+                                <option value="OR">Oregon</option>
+                                <option value="PA">Pennsylvania</option>
+                                <option value="RI">Rhode Island</option>
+                                <option value="SC">South Carolina</option>
+                                <option value="SD">South Dakota</option>
+                                <option value="TN">Tennessee</option>
+                                <option value="TX">Texas</option>
+                                <option value="UT">Utah</option>
+                                <option value="VT">Vermont</option>
+                                <option value="VA">Virginia</option>
+                                <option value="WA">Washington</option>
+                                <option value="WV">West Virginia</option>
+                                <option value="WI">Wisconsin</option>
+                                <option value="WY">Wyoming</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <label for="zip" class="control-label">Zip</label>
+                        <input data-info="info2" type="text" class="form-control" id="zip" name="zip" placeholder="Enter zip here" required />
+                        <span class="icon icon-attention form-control-feedback" aria-hidden="true">
+                            <i class="fa fa-caret-down"></i>
+                        </span>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button class="btn btn-secondary-paired btn-lg btn-block back2">back</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button class="btn btn-primary btn-lg btn-block next2">Next</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-8 step3">
+                <div class="row input-fields-row">
+                    <div class="form-group has-feedback">
+                        <label for="vehiclemake">Vehicle Make: </label>
+                        <div class="select-container">
+                            <select data-info="info3" name="vehiclemake" class="form-control vehiclemake" required="">
+                                <option value="">Please Select</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <label for="vehiclemodel">Vehicle Model: </label>
+                        <div class="select-container">
+                            <select data-info="info3" name="vehiclemodel" class="form-control vehiclemodel" required="">
+                                <option value="">Please Select</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <label for="condition" class="control-label">Condition</label>
+                        <input data-info="info3" type="text" class="form-control" id="condition" name="condition" placeholder="Enter condition here"
+                            required />
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <button class="btn btn-secondary-paired btn-lg btn-block back3">back</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button class="btn btn-primary btn-lg btn-block next3">Submit Application</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 done">
+                <div class="row input-fields-row">
+                    Application Complete.
+                    <br>
+                    <br>
+                    <button class="btn btn-primary btn-lg btn-block again">Start Over</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card top">
+                    <h2>Progress</h2>
+                    <span class="progress-zone-right-rail"></span>
+                    <div id="info1" class="info-output">
+                        <h4>
+                            <a href="#" class="step1-shortcut">Personal Info</a>
+                        </h4>
+                    </div>
+                    <div id="info2" class="info-output">
+                        <h4>
+                            <a href="#" class="step2-shortcut">Location Info</a>
+                        </h4>
+                    </div>
+                    <div id="info3" class="info-output">
+                        <h4>
+                            <a href="#" class="step3-shortcut">Vehicle Info</a>
+                        </h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer-primary">
+        <div class="container">
+            <div class="row content-row">
+                <p class="faqs">
+                    <i class="icon icon-questions padding-right"></i>Frequently Asked Questions</p>
+                <div class="col-xs-12 col-sm-5 content-contact">
+                    <p>CONTACT US</p>
+                    <p>
+                        <i class="icon icon-chat padding-right"></i>Live Chat</p>
+                    <p>
+                        <i class="icon icon-call padding-right"></i>Request a Call</p>
+                    <p>(XXX) XXX-XXXX</p>
+                    <p>
+                        <i class="icon icon-plus padding-right"></i>Feedback</p>
+                </div>
+                <div class="col-xs-12 col-sm-7 col-md-2 content-norton">
+                    <img src="https://qawww.thehartford.com/sites/frontendstage/uxkit/demo/dist/images/norton.svg" alt="Norton Secured - Powered by VeriSign">
+                </div>
+                <div class="col-xs-12 col-sm-7 col-md-5 content-connect">
+                    <div class="icons">
+                        <div>
+                            <a href="">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <i class="fa fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="">Legal Notice</a>
+                        </li>
+                        <li>
+                            <a href="">Terms of Use</a>
+                        </li>
+                    </ul>
+                    <p class="copyright">&copy; 2018 The Hartford. All rights Reserved.</p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+<script src="https://qawww.thehartford.com/sites/frontendstage/uxkit/demo/dist/js/app.min.js"></script>
+<script src="js/scripts.js"></script>
+
+</html>

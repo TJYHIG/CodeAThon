@@ -1,0 +1,14 @@
+{
+  "name": "demo-starter",
+  "version": "1.0.0",
+  "description": "Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}

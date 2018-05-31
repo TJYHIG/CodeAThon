@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url("fonts/fontawesome-webfont.eot?v=4.7.0");
+    src: url("fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HCo Gotham';
+    src: url("fonts/F2A3A0806ACF4443C.woff2") format("woff2"), url("fonts/F2A3A0806ACF4443C.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HCo Gotham';
+    src: url("fonts/44A2E3DACA40601DC.woff2") format("woff2"), url("fonts/44A2E3DACA40601DC.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HCo Gotham';
+    src: url("fonts/3B378E5863CC7B3F9.woff2") format("woff2"), url("fonts/3B378E5863CC7B3F9.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HCo Gotham';
+    src: url("fonts/443E40AF8E40D5DFB.woff2") format("woff2"), url("fonts/443E40AF8E40D5DFB.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HCo Gotham SSm';
+    src: url("fonts/88511C2450F823437.woff2") format("woff2"), url("fonts/88511C2450F823437.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HCo Gotham SSm';
+    src: url("fonts/B378FA46F016EE7AF.woff2") format("woff2"), url("fonts/B378FA46F016EE7AF.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "higux";
+    src: url("fonts/higux.eot");
+    src: url("fonts/higux.eot?#iefix") format("embedded-opentype"), url("fonts/higux.woff") format("woff"), url("fonts/higux.ttf") format("truetype"), url("fonts/higux.svg#higux") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
